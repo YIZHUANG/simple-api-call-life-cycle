@@ -1,0 +1,21 @@
+{
+  "name": "simple-api-call-life-cycle",
+  "version": "1.0.3",
+  "description": "make api call with redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YIZHUANG/simple-api-call-life-cycle.git"
+  },
+  "author": "yi zhuang",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.4.1"
+  }
+}
