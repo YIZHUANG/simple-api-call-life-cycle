@@ -1,6 +1,6 @@
 {
   "name": "simple-api-call-life-cycle",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "make api call with redux",
   "main": "index.js",
   "scripts": {
