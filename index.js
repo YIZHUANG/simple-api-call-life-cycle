@@ -1,11 +1,11 @@
-class lifecycle {
+class Lifecycle {
   constructor({ init, success, fail }) {
     this.init = init;
     this.success = success;
     this.fail = fail;
   }
 }
-class apiCall extends lifecycle {
+class ApiCall extends Lifecycle {
   constructor(key) {
     super({
       init: `${key}_INIT`,
@@ -35,4 +35,4 @@ class apiCall extends lifecycle {
     };
   }
 }
-export { apiCall };
+export { ApiCall };

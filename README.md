@@ -18,10 +18,10 @@ from action to reducer.
 ## action.
 
 ```js
-import { apiCall } from 'simple-api-call-life-cycle';
+import { ApiCall } from 'simple-api-call-life-cycle';
 // Passing the type and define the action.
 const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
-const fetchProductsAction = new apiCall(FETCH_PRODUCTS);
+const fetchProductsAction = new ApiCall(FETCH_PRODUCTS);
 const fetchProductsRequest = axios.get('url');
 
 export const fetchProducts = fetchProductsAction.fetch.bind(
